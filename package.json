@@ -1,0 +1,23 @@
+{
+  "name": "prepcourse",
+  "version": "1.0.0",
+  "description": "Prep course for web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false --testResultsProcessor ./.reporter/index.js --detectOpenHandles"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "jest": "^27.0.5"
+  },
+  "author": "ivaniraldi",
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "git-remote-origin-url": "^3.1.0",
+    "git-url-parse": "^11.4.4",
+    "simple-git": "^2.40.0"
+  }
+}
